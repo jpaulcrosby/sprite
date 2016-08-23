@@ -1,0 +1,29 @@
+body {
+	background-color: #638BA5;
+}
+.social-icon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-image: url(social-sprite.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.facebook:hover,
+.twitter:hover,
+.linkedin:hover,
+.googleplus:hover {
+	background-position-y: -30px;
+	cursor: pointer;
+}
+.facebook {
+	background-position: -30px 0;
+}
+.linkedin {
+	background-position: -60px 0;
+}
+.googleplus {
+	background-position: -90px 0;
+}
